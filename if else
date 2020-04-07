@@ -1,0 +1,7 @@
+Name = input("Enter your Full Name : ").upper()
+Age = input("Enter Your Age : ")
+Income = input("Enter Your Annual Income : ")
+if(int(Age) >= 18) and (int(Income) >= 15000):
+    print("Mr.{} ,Congrats You are able to benefit from Scholar loan.".format(Name))
+else :
+    print("Mr.{} , Unfortunately You are NOT able to benefit from Scholar loan.".format(Name))
